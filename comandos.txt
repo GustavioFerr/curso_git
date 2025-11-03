@@ -1,0 +1,6 @@
+init
+pull
+push
+commit -a -m ""
+add .
+status
