@@ -1,6 +1,7 @@
-init
-pull
-push
-commit -a -m ""
-add .
-status
+init // inicia um repositório local
+pull // puxa as alterações no repositório compartilhado
+push // envia alterações ao repositório compartilhado
+commit -a -m "" // gera um commit com todas as alterações (-a) e um título (-m "")
+add . // adiciona novos arquivos para a visualização do repositório local
+status // mostra informações sobre o repositório
+
