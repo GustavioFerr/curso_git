@@ -4,4 +4,5 @@ push // envia alterações ao repositório compartilhado
 commit -a -m "" // gera um commit com todas as alterações (-a) e um título (-m "")
 add . // adiciona novos arquivos para a visualização do repositório local
 status // mostra informações sobre o repositório
+rm // remove um arquivo do repositório compartilhado
 
