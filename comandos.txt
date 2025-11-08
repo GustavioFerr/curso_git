@@ -5,4 +5,10 @@ commit -a -m "" // gera um commit com todas as alterações (-a) e um título (-
 add . // adiciona novos arquivos para a visualização do repositório local
 status // mostra informações sobre o repositório
 rm // remove um arquivo do repositório compartilhado
-
+log // mostra um histórico do repositório compartilhado
+mv // move e renomeia arquivos
+remote add origin // adiciona uma origem para um repositório compartilhado
+checkout arquivo // retorna o repositório local para o estado atual do repositório compartilhado
+reset --hard origin/master // reseta todos os commits e alterações feitas
+branch nome // cria um novo branch
+branch // visualizar branchs
