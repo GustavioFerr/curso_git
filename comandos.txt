@@ -12,3 +12,9 @@ checkout arquivo // retorna o repositório local para o estado atual do reposit�
 reset --hard origin/master // reseta todos os commits e alterações feitas
 branch nome // cria um novo branch
 branch // visualizar branchs
+-d ou --delete // flag para deletar
+checkout -b nome // cria e muda para outra branch
+checkout nome // muda para outra branch
+
+Atenção: commite as alterações antes de mudar de branch, pois as alterações não commitadas serão levadas consigo ao trocar de branch.
+
